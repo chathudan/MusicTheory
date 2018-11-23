@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C0A20B71F0CB00B008257EA /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 8C0A20B51F0CB00B008257EA /* iTunesArtwork */; };
+		8C0A20B81F0CB00B008257EA /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 8C0A20B61F0CB00B008257EA /* iTunesArtwork@2x */; };
+		8C0FC5D01FD78E1300A46F12 /* InstrumentNotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FC5CF1FD78E1300A46F12 /* InstrumentNotationViewController.swift */; };
+		8C15CE061F0C76F3000562BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C15CE051F0C76F3000562BF /* AppDelegate.swift */; };
+		8C464ADB1FD90D55005CD593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C464ADA1FD90D55005CD593 /* Assets.xcassets */; };
+		8C49C5F31F0B7F7700BE011E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C49C5F21F0B7F7700BE011E /* InfoPlist.strings */; };
+		8C61D3E61FD7D2F0008872DD /* GuitarStandardTuningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C61D3E51FD7D2F0008872DD /* GuitarStandardTuningViewController.swift */; };
+		8C61D3E81FD7D315008872DD /* BassStandardTuningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C61D3E71FD7D315008872DD /* BassStandardTuningViewController.swift */; };
+		8C61D3EA1FD7D332008872DD /* GuitarDropDTuningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C61D3E91FD7D332008872DD /* GuitarDropDTuningViewController.swift */; };
+		8C61D3EC1FD7D347008872DD /* BassDropDTuningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C61D3EB1FD7D347008872DD /* BassDropDTuningViewController.swift */; };
+		8C61D3EE1FD7D35B008872DD /* PianoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C61D3ED1FD7D35B008872DD /* PianoViewController.swift */; };
+		AB05D62C1F029F8900445171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB05D62A1F029F8900445171 /* Main.storyboard */; };
+		AB05D6311F029F8900445171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB05D62F1F029F8900445171 /* LaunchScreen.storyboard */; };
+		AB094D3B1F0384C900C0D9E9 /* SwiftHEXColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB094D3A1F0384C900C0D9E9 /* SwiftHEXColors.swift */; };
+		AB094D3D1F0384FF00C0D9E9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB094D3C1F0384FF00C0D9E9 /* Constants.swift */; };
+		AB4610281F03717E000D9969 /* sanfranciscodisplay-medium-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB4610221F03717E000D9969 /* sanfranciscodisplay-medium-webfont.ttf */; };
+		AB4610291F03717E000D9969 /* Savoye LET.ttc in Resources */ = {isa = PBXBuildFile; fileRef = AB4610231F03717E000D9969 /* Savoye LET.ttc */; };
+		AB46102A1F03717E000D9969 /* SF-Compact-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB4610241F03717E000D9969 /* SF-Compact-Display-Ultralight.otf */; };
+		AB46102B1F03717E000D9969 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB4610251F03717E000D9969 /* SF-UI-Text-Regular.otf */; };
+		AB46102C1F03717E000D9969 /* SF-UI-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB4610261F03717E000D9969 /* SF-UI-Text-Semibold.otf */; };
+		AB4610331F0375F1000D9969 /* SignPainter_HouseScript.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB4610321F0375F1000D9969 /* SignPainter_HouseScript.ttf */; };
+		ABA67BA01F06392F007B49B7 /* CircleKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA67B9E1F06392F007B49B7 /* CircleKeyViewController.swift */; };
+		ABA67BA51F064A1C007B49B7 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA67BA41F064A1C007B49B7 /* RoundView.swift */; };
+		ABA67BAC1F064C78007B49B7 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA67BA71F064C78007B49B7 /* Circle.swift */; };
+		ABA67BAD1F064C78007B49B7 /* CircleGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA67BA81F064C78007B49B7 /* CircleGestureRecognizer.swift */; };
+		ABA67BAE1F064C78007B49B7 /* CircleIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA67BA91F064C78007B49B7 /* CircleIconView.swift */; };
+		ABA67BAF1F064C78007B49B7 /* CircleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA67BAA1F064C78007B49B7 /* CircleOverlayView.swift */; };
+		ABA67BB01F064C78007B49B7 /* CircleThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA67BAB1F064C78007B49B7 /* CircleThumb.swift */; };
+		ABF62E011F04A069002F4AED /* SF-UI-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ABF62E001F04A069002F4AED /* SF-UI-Display-Regular.otf */; };
+		ABF62E031F04C6BE002F4AED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF62E021F04C6BE002F4AED /* HomeViewController.swift */; };
+		ABF62E051F04C6E6002F4AED /* AppNavigationControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF62E041F04C6E6002F4AED /* AppNavigationControls.swift */; };
+		ABF62E071F04CA19002F4AED /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF62E061F04CA19002F4AED /* BaseViewController.swift */; };
+		ABF62E0C1F04DB9D002F4AED /* BoarderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF62E0B1F04DB9D002F4AED /* BoarderButton.swift */; };
+		ABF62E0E1F04DE03002F4AED /* MakingChordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF62E0D1F04DE03002F4AED /* MakingChordsViewController.swift */; };
+		ABF62E101F04DED9002F4AED /* ScalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF62E0F1F04DED9002F4AED /* ScalesViewController.swift */; };
+		ABF62E121F04DFE2002F4AED /* BasicCodeProgressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF62E111F04DFE2002F4AED /* BasicCodeProgressionViewController.swift */; };
+		ABF62E141F04E631002F4AED /* HowItWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF62E131F04E631002F4AED /* HowItWorksViewController.swift */; };
+		ABF62E161F04E957002F4AED /* KeysDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF62E151F04E957002F4AED /* KeysDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C0A20B51F0CB00B008257EA /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		8C0A20B61F0CB00B008257EA /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		8C0FC5CF1FD78E1300A46F12 /* InstrumentNotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstrumentNotationViewController.swift; path = Controllers/InstrumentNotationViewController.swift; sourceTree = "<group>"; };
+		8C15CE051F0C76F3000562BF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C464ADA1FD90D55005CD593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C49C5F21F0B7F7700BE011E /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		8C61D3E51FD7D2F0008872DD /* GuitarStandardTuningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuitarStandardTuningViewController.swift; path = Controllers/GuitarStandardTuningViewController.swift; sourceTree = "<group>"; };
+		8C61D3E71FD7D315008872DD /* BassStandardTuningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BassStandardTuningViewController.swift; path = Controllers/BassStandardTuningViewController.swift; sourceTree = "<group>"; };
+		8C61D3E91FD7D332008872DD /* GuitarDropDTuningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuitarDropDTuningViewController.swift; path = Controllers/GuitarDropDTuningViewController.swift; sourceTree = "<group>"; };
+		8C61D3EB1FD7D347008872DD /* BassDropDTuningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BassDropDTuningViewController.swift; path = Controllers/BassDropDTuningViewController.swift; sourceTree = "<group>"; };
+		8C61D3ED1FD7D35B008872DD /* PianoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PianoViewController.swift; path = Controllers/PianoViewController.swift; sourceTree = "<group>"; };
+		AB05D6231F029F8900445171 /* MusicTheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB05D62B1F029F8900445171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB05D6301F029F8900445171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB05D6321F029F8900445171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB094D3A1F0384C900C0D9E9 /* SwiftHEXColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftHEXColors.swift; path = Library/SwiftHEXColors/SwiftHEXColors.swift; sourceTree = "<group>"; };
+		AB094D3C1F0384FF00C0D9E9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Utilities/Constants.swift; sourceTree = "<group>"; };
+		AB4610221F03717E000D9969 /* sanfranciscodisplay-medium-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "sanfranciscodisplay-medium-webfont.ttf"; path = "Assets/Fonts/sanfranciscodisplay-medium-webfont.ttf"; sourceTree = "<group>"; };
+		AB4610231F03717E000D9969 /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Savoye LET.ttc"; path = "Assets/Fonts/Savoye LET.ttc"; sourceTree = "<group>"; };
+		AB4610241F03717E000D9969 /* SF-Compact-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Compact-Display-Ultralight.otf"; path = "Assets/Fonts/SF-Compact-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		AB4610251F03717E000D9969 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-UI-Text-Regular.otf"; path = "Assets/Fonts/SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		AB4610261F03717E000D9969 /* SF-UI-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-UI-Text-Semibold.otf"; path = "Assets/Fonts/SF-UI-Text-Semibold.otf"; sourceTree = "<group>"; };
+		AB4610321F0375F1000D9969 /* SignPainter_HouseScript.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SignPainter_HouseScript.ttf; path = Assets/Fonts/SignPainter_HouseScript.ttf; sourceTree = "<group>"; };
+		ABA67B9E1F06392F007B49B7 /* CircleKeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleKeyViewController.swift; path = Controllers/CircleKeyViewController.swift; sourceTree = "<group>"; };
+		ABA67BA41F064A1C007B49B7 /* RoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundView.swift; path = UIControls/RoundView.swift; sourceTree = "<group>"; };
+		ABA67BA71F064C78007B49B7 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Circle.swift; path = Library/CircleMenu/Circle.swift; sourceTree = "<group>"; };
+		ABA67BA81F064C78007B49B7 /* CircleGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleGestureRecognizer.swift; path = Library/CircleMenu/CircleGestureRecognizer.swift; sourceTree = "<group>"; };
+		ABA67BA91F064C78007B49B7 /* CircleIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleIconView.swift; path = Library/CircleMenu/CircleIconView.swift; sourceTree = "<group>"; };
+		ABA67BAA1F064C78007B49B7 /* CircleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleOverlayView.swift; path = Library/CircleMenu/CircleOverlayView.swift; sourceTree = "<group>"; };
+		ABA67BAB1F064C78007B49B7 /* CircleThumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleThumb.swift; path = Library/CircleMenu/CircleThumb.swift; sourceTree = "<group>"; };
+		ABF62E001F04A069002F4AED /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-UI-Display-Regular.otf"; path = "Assets/Fonts/SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		ABF62E021F04C6BE002F4AED /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controllers/HomeViewController.swift; sourceTree = "<group>"; };
+		ABF62E041F04C6E6002F4AED /* AppNavigationControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppNavigationControls.swift; path = UIControls/AppNavigationControls.swift; sourceTree = "<group>"; };
+		ABF62E061F04CA19002F4AED /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Controllers/BaseViewController.swift; sourceTree = "<group>"; };
+		ABF62E0B1F04DB9D002F4AED /* BoarderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoarderButton.swift; path = UIControls/BoarderButton.swift; sourceTree = "<group>"; };
+		ABF62E0D1F04DE03002F4AED /* MakingChordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MakingChordsViewController.swift; path = Controllers/MakingChordsViewController.swift; sourceTree = "<group>"; };
+		ABF62E0F1F04DED9002F4AED /* ScalesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScalesViewController.swift; path = Controllers/ScalesViewController.swift; sourceTree = "<group>"; };
+		ABF62E111F04DFE2002F4AED /* BasicCodeProgressionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasicCodeProgressionViewController.swift; path = Controllers/BasicCodeProgressionViewController.swift; sourceTree = "<group>"; };
+		ABF62E131F04E631002F4AED /* HowItWorksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HowItWorksViewController.swift; path = Controllers/HowItWorksViewController.swift; sourceTree = "<group>"; };
+		ABF62E151F04E957002F4AED /* KeysDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = KeysDetailsViewController.swift; path = Controllers/KeysDetailsViewController.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 1; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB05D6201F029F8900445171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB05D61A1F029F8900445171 = {
+			isa = PBXGroup;
+			children = (
+				AB05D6251F029F8900445171 /* MusicTheory */,
+				AB05D6241F029F8900445171 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB05D6241F029F8900445171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB05D6231F029F8900445171 /* MusicTheory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB05D6251F029F8900445171 /* MusicTheory */ = {
+			isa = PBXGroup;
+			children = (
+				8C464ADA1FD90D55005CD593 /* Assets.xcassets */,
+				AB05D6381F029F9700445171 /* Models */,
+				AB05D63C1F029FC700445171 /* StoryBoards */,
+				AB05D63E1F029FE700445171 /* Library */,
+				AB05D63A1F029FA700445171 /* Utilities */,
+				AB05D6391F029F9F00445171 /* Controllers */,
+				AB05D63F1F02A0DC00445171 /* Assets */,
+				AB05D6401F02A12A00445171 /* UIControls */,
+				AB05D63D1F029FD100445171 /* SupportingFiles */,
+			);
+			path = MusicTheory;
+			sourceTree = "<group>";
+		};
+		AB05D6381F029F9700445171 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AB05D6391F029F9F00445171 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABA67B9E1F06392F007B49B7 /* CircleKeyViewController.swift */,
+				ABF62E021F04C6BE002F4AED /* HomeViewController.swift */,
+				ABF62E061F04CA19002F4AED /* BaseViewController.swift */,
+				ABF62E0D1F04DE03002F4AED /* MakingChordsViewController.swift */,
+				ABF62E0F1F04DED9002F4AED /* ScalesViewController.swift */,
+				ABF62E111F04DFE2002F4AED /* BasicCodeProgressionViewController.swift */,
+				ABF62E131F04E631002F4AED /* HowItWorksViewController.swift */,
+				ABF62E151F04E957002F4AED /* KeysDetailsViewController.swift */,
+				8C0FC5CF1FD78E1300A46F12 /* InstrumentNotationViewController.swift */,
+				8C61D3E51FD7D2F0008872DD /* GuitarStandardTuningViewController.swift */,
+				8C61D3E71FD7D315008872DD /* BassStandardTuningViewController.swift */,
+				8C61D3E91FD7D332008872DD /* GuitarDropDTuningViewController.swift */,
+				8C61D3EB1FD7D347008872DD /* BassDropDTuningViewController.swift */,
+				8C61D3ED1FD7D35B008872DD /* PianoViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		AB05D63A1F029FA700445171 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AB094D3C1F0384FF00C0D9E9 /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		AB05D63C1F029FC700445171 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				AB05D62A1F029F8900445171 /* Main.storyboard */,
+				AB05D62F1F029F8900445171 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		AB05D63D1F029FD100445171 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8C0A20B51F0CB00B008257EA /* iTunesArtwork */,
+				8C0A20B61F0CB00B008257EA /* iTunesArtwork@2x */,
+				8C15CE051F0C76F3000562BF /* AppDelegate.swift */,
+				AB05D6321F029F8900445171 /* Info.plist */,
+				8C49C5F21F0B7F7700BE011E /* InfoPlist.strings */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		AB05D63E1F029FE700445171 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				ABA67BA61F064C68007B49B7 /* CircleMenu */,
+				AB094D391F03848A00C0D9E9 /* SwiftHexColor */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		AB05D63F1F02A0DC00445171 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AB05D6411F02A1AD00445171 /* Fonts */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		AB05D6401F02A12A00445171 /* UIControls */ = {
+			isa = PBXGroup;
+			children = (
+				ABF62E041F04C6E6002F4AED /* AppNavigationControls.swift */,
+				ABF62E0B1F04DB9D002F4AED /* BoarderButton.swift */,
+				ABA67BA41F064A1C007B49B7 /* RoundView.swift */,
+			);
+			name = UIControls;
+			sourceTree = "<group>";
+		};
+		AB05D6411F02A1AD00445171 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AB4610221F03717E000D9969 /* sanfranciscodisplay-medium-webfont.ttf */,
+				ABF62E001F04A069002F4AED /* SF-UI-Display-Regular.otf */,
+				AB4610231F03717E000D9969 /* Savoye LET.ttc */,
+				AB4610321F0375F1000D9969 /* SignPainter_HouseScript.ttf */,
+				AB4610241F03717E000D9969 /* SF-Compact-Display-Ultralight.otf */,
+				AB4610251F03717E000D9969 /* SF-UI-Text-Regular.otf */,
+				AB4610261F03717E000D9969 /* SF-UI-Text-Semibold.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		AB094D391F03848A00C0D9E9 /* SwiftHexColor */ = {
+			isa = PBXGroup;
+			children = (
+				AB094D3A1F0384C900C0D9E9 /* SwiftHEXColors.swift */,
+			);
+			name = SwiftHexColor;
+			sourceTree = "<group>";
+		};
+		ABA67BA61F064C68007B49B7 /* CircleMenu */ = {
+			isa = PBXGroup;
+			children = (
+				ABA67BA71F064C78007B49B7 /* Circle.swift */,
+				ABA67BA81F064C78007B49B7 /* CircleGestureRecognizer.swift */,
+				ABA67BA91F064C78007B49B7 /* CircleIconView.swift */,
+				ABA67BAA1F064C78007B49B7 /* CircleOverlayView.swift */,
+				ABA67BAB1F064C78007B49B7 /* CircleThumb.swift */,
+			);
+			name = CircleMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB05D6221F029F8900445171 /* MusicTheory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB05D6351F029F8900445171 /* Build configuration list for PBXNativeTarget "MusicTheory" */;
+			buildPhases = (
+				AB05D61F1F029F8900445171 /* Sources */,
+				AB05D6201F029F8900445171 /* Frameworks */,
+				AB05D6211F029F8900445171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicTheory;
+			productName = MusicTheory;
+			productReference = AB05D6231F029F8900445171 /* MusicTheory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB05D61B1F029F8900445171 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Avinas Udayakumar";
+				TargetAttributes = {
+					AB05D6221F029F8900445171 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = AB05D61E1F029F8900445171 /* Build configuration list for PBXProject "MusicTheory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB05D61A1F029F8900445171;
+			productRefGroup = AB05D6241F029F8900445171 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB05D6221F029F8900445171 /* MusicTheory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB05D6211F029F8900445171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB46102C1F03717E000D9969 /* SF-UI-Text-Semibold.otf in Resources */,
+				AB05D6311F029F8900445171 /* LaunchScreen.storyboard in Resources */,
+				8C0A20B81F0CB00B008257EA /* iTunesArtwork@2x in Resources */,
+				ABF62E011F04A069002F4AED /* SF-UI-Display-Regular.otf in Resources */,
+				AB46102A1F03717E000D9969 /* SF-Compact-Display-Ultralight.otf in Resources */,
+				AB4610331F0375F1000D9969 /* SignPainter_HouseScript.ttf in Resources */,
+				8C464ADB1FD90D55005CD593 /* Assets.xcassets in Resources */,
+				AB4610281F03717E000D9969 /* sanfranciscodisplay-medium-webfont.ttf in Resources */,
+				8C0A20B71F0CB00B008257EA /* iTunesArtwork in Resources */,
+				AB4610291F03717E000D9969 /* Savoye LET.ttc in Resources */,
+				AB46102B1F03717E000D9969 /* SF-UI-Text-Regular.otf in Resources */,
+				8C49C5F31F0B7F7700BE011E /* InfoPlist.strings in Resources */,
+				AB05D62C1F029F8900445171 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB05D61F1F029F8900445171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF62E161F04E957002F4AED /* KeysDetailsViewController.swift in Sources */,
+				ABF62E0E1F04DE03002F4AED /* MakingChordsViewController.swift in Sources */,
+				AB094D3D1F0384FF00C0D9E9 /* Constants.swift in Sources */,
+				8C61D3E81FD7D315008872DD /* BassStandardTuningViewController.swift in Sources */,
+				ABA67BAD1F064C78007B49B7 /* CircleGestureRecognizer.swift in Sources */,
+				ABF62E051F04C6E6002F4AED /* AppNavigationControls.swift in Sources */,
+				8C0FC5D01FD78E1300A46F12 /* InstrumentNotationViewController.swift in Sources */,
+				ABF62E101F04DED9002F4AED /* ScalesViewController.swift in Sources */,
+				ABA67BAF1F064C78007B49B7 /* CircleOverlayView.swift in Sources */,
+				ABF62E121F04DFE2002F4AED /* BasicCodeProgressionViewController.swift in Sources */,
+				8C15CE061F0C76F3000562BF /* AppDelegate.swift in Sources */,
+				ABA67BA51F064A1C007B49B7 /* RoundView.swift in Sources */,
+				ABA67BB01F064C78007B49B7 /* CircleThumb.swift in Sources */,
+				AB094D3B1F0384C900C0D9E9 /* SwiftHEXColors.swift in Sources */,
+				ABA67BAC1F064C78007B49B7 /* Circle.swift in Sources */,
+				ABF62E0C1F04DB9D002F4AED /* BoarderButton.swift in Sources */,
+				8C61D3EA1FD7D332008872DD /* GuitarDropDTuningViewController.swift in Sources */,
+				ABF62E071F04CA19002F4AED /* BaseViewController.swift in Sources */,
+				ABF62E141F04E631002F4AED /* HowItWorksViewController.swift in Sources */,
+				ABA67BA01F06392F007B49B7 /* CircleKeyViewController.swift in Sources */,
+				8C61D3EC1FD7D347008872DD /* BassDropDTuningViewController.swift in Sources */,
+				8C61D3EE1FD7D35B008872DD /* PianoViewController.swift in Sources */,
+				ABF62E031F04C6BE002F4AED /* HomeViewController.swift in Sources */,
+				8C61D3E61FD7D2F0008872DD /* GuitarStandardTuningViewController.swift in Sources */,
+				ABA67BAE1F064C78007B49B7 /* CircleIconView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB05D62A1F029F8900445171 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB05D62B1F029F8900445171 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB05D62F1F029F8900445171 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB05D6301F029F8900445171 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB05D6331F029F8900445171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB05D6341F029F8900445171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB05D6361F029F8900445171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = MusicTheory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.MusicTheory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AB05D6371F029F8900445171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_INFINITE_RECURSION = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = MusicTheory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.MusicTheory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB05D61E1F029F8900445171 /* Build configuration list for PBXProject "MusicTheory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB05D6331F029F8900445171 /* Debug */,
+				AB05D6341F029F8900445171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB05D6351F029F8900445171 /* Build configuration list for PBXNativeTarget "MusicTheory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB05D6361F029F8900445171 /* Debug */,
+				AB05D6371F029F8900445171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB05D61B1F029F8900445171 /* Project object */;
+}

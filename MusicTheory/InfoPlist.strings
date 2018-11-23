@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  MusicTheory
+
+  Created by Elegant Media on 7/4/17.
+  Copyright © 2017 Avinas Udayakumar. All rights reserved.
+*/
+
+
+"SHORTCUT_TITLE_KEYS" = "Keys";
+"SHORTCUT_MESSAGE_KEYS" = "View Keys of Chords";
+
